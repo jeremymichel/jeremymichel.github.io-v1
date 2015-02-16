@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="container">
+  <article class="single-post">
+    <div class="card-panel">
+      <div class="row center">
+        <div class="col s12">
+          <div class="col s6">
+            <p class="post-date left-align">
+              {{ page.date | date: "%d/%m/%Y" }}
+            </p>
+          </div>
+          <div class="col s6">
+            <div class="post-tags right-align">
+              <i class="mdi-maps-local-offer grey-text text-darken-2"></i>
+              {% for tag in page.tags %}
+                {% if forloop.last == true %}
+                  <a href="/blog/#{{ tag }}">{{ tag }}</a>
+                {% else %}
+                  <a href="/blog/#{{ tag }}">{{ tag }}</a>,
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <div class="spacer"></div>
+          <h3>{{ page.title }}</h3>
+
+
+          <div class="post-content">
+            {{ content }}
+          </div>
+
+          <div class="author-info">
+            <img src="/img/profile.png" alt="" class="author-pic">
+            <p>Jérémy Michel</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>

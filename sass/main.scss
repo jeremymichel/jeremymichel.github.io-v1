@@ -1,0 +1,100 @@
+.brand-logo{
+  margin-left: 10px;
+}
+
+.profile-pic{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about{
+  margin: 2.1rem 0 1.6rem 0;
+}
+
+.list-social{
+  font-size: 42px;
+  a{
+    margin-right: 30px;
+    transition: all 0.3s;
+  }
+  a:last-child{
+    margin-right: 0;
+  }
+  a:hover{
+    text-shadow: 1px 3px 6px rgba(0,0,0,0.4);
+  }
+  .twitter-link{
+    color: #55ACEE;
+  }
+  .github-link{
+    color: #222;
+  }
+  .linkedin-link{
+    color: #1883BB;
+  }
+}
+
+.small-divider{
+  width: 50%;
+  height: 1px;
+  background-color: rgba(0,0,0,0.4);
+  margin: 0 auto;
+}
+
+.post-details{
+  text-align: center;
+}
+
+.author-pic{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.date{
+  margin-top: -15px;
+  color: #666;
+}
+
+.single-post{
+  margin-top: 2.1rem;
+}
+
+.post-content{
+  text-align: left;
+}
+
+.author-info{
+  margin-top: 2rem;
+}
+
+.post-date{
+  margin: 0;
+  color: #666;
+}
+
+.post-tags{
+  margin: 0;
+}
+
+.spacer{
+  margin: 3.5rem 0;
+}
+
+.excerpt, .post-content{
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.competences ul li{
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.card.large{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+}
+.card-image{
+  // height: 100% !important;
+}

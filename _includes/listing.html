@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row center">
+    <h2>{{ include.title }}</h2>
+    <p>{{ include.description }}</p>
+    <div class="small-divider"></div>
+  </div>
+  {% for element in site.categories[include.category] %}
+      <div class="row center">
+        <div class="col s12">
+          <div class="card large">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="{{ element.image }}">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">{{ element.title }} <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="{{ element.link }}">Accéder</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">{{ element.title }} <i class="mdi-navigation-close right"></i></span>
+          <p>{{ element.description }}</p>
+          <p><strong>Technologies:</strong>{{ element.technologies | join: ', ' }}</p>
+        </div>
+      </div>
+
+        </div>
+      </div>
+  {% endfor %}
+</div>

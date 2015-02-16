@@ -1,0 +1,16 @@
+# Site settings
+title: Jérémy Michel
+email: jeremymichel91@gmail.com
+description: >
+  Passionné d'informatique et de programmation,
+  je suis fasciné par le développement web.
+  Je suis un jeune développeur en soif de connaissances.
+  Je me spécialise dans le développement front-end et ruby.
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+excerpt_separator: <!--more-->
+permalink: /:categories/:title
+
+# Build settings
+markdown: kramdown
+exclude: [sass/, gulpfile.js, coffee/, node_modules/, package.json]

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+<div class="container">
+  <div class="row center">
+    <h2>Me contacter</h2>
+    <p>Si vous êtes interessés par mes projets ou mes compétences, vous pouvez me contacter via le formulaire.</p>
+    <p>Vous pouvez toujours me rejoindre sur les réseaux sociaux.</p>
+    <form action="http://formspree.io/jeremymichel91@gmail.com" class="col s12">
+      <div class="row">
+        <div class="input-field col m6 s12">
+          <input type="text" name="nom" id="nom" class="validate" required>
+          <label for="nom">Nom</label>
+        </div>
+        <div class="input-field col m6 s12">
+          <input type="email" name="email" id="email" class="validate" required>
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" class="validate" id="sujet" name="sujet"required>
+          <label for="sujet">Sujet</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="message" name="messgae" class="materialize-textarea" required></textarea>
+          <label for="message">Message</label>
+        </div>
+      </div>
+      <div class="row">
+        <button class="btn waves-effect waves-light blue darken-2" type="submit" name="action">Envoyer
+          <i class="mdi-content-send right"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
