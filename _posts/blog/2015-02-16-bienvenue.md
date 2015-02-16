@@ -9,8 +9,8 @@ tags:
 
 Cela fait un bon bout de temps que je pense à créer mon site personnel, et voilà chose faite.
 
-Ce site me sert de blog et aussi d'endroit où je peux poster mes projets et expériences. Comme l'indique la description du site, je compte parler de mon expérience, de mes méthodes et ressources pour l'apprentissage, et de mon point de vue sur certains aspects du développement web.
+Ce site me sert de blog ainsi que d'espace où je peux poster mes projets et snippets de code. Je compte partager expérience, méthodes, point de vue et ressources pour l'apprentissage du développement web.
 
 Vous pouvez consulter mes [projets](/projets) ainsi que mes expériences dans le [labo](/labo).
 
-Je vous souhaite une bonne visite sur mon site, si vous voulez me [contacter](/contact), n'hésitez pas.
+Je vous souhaite une bonne visite sur mon site, si vous souhaitez me [contacter](/contact), n'hésitez pas.
