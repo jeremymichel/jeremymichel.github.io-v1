@@ -74,3 +74,5 @@
   margin-right: auto;
   max-width: 750px; }
 
+.card a, .card a:hover {
+  color: #039BE5; }
